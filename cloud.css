@@ -139,7 +139,8 @@ body {
   }
 
   h3{
-      text-align: center;
+      position: relative;
+      left:2%;
       font-size: 35px;
       }
 

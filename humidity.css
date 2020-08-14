@@ -139,9 +139,11 @@ body {
   }
 
   h3{
-      text-align: center;
-      font-size: 35px;
-      }
+    position: relative;
+    left:2%;
+    font-size: 35px;
+    }
+
 
 img{
   max-width: 100%;
