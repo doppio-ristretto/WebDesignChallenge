@@ -85,12 +85,15 @@ body {
     float: left;
     width: 60%;
     padding: 10px;
+    border-right:1px solid  lightgrey;
+    border-top:1px solid  lightgrey;
 
   }
   .column2 {
     float: left;
     width: 40%;
     padding: 10px;
+    border-top:1px solid  lightgrey;
 
   }
   
