@@ -3,6 +3,7 @@
     top:0px;
     right:0px;
     margin:5px;
+    z-index:999;
     color:white;
     font-family: 'oswald', sans-serif;
   }
@@ -22,13 +23,19 @@
 .navbar-light{
     padding:0px;
     background-color: rgb(58, 161, 161);
+    
 }
 
 .navbar-toggler{
     border-width: 2px;
     border-color: black;
     background-color: rgb(58, 161, 161);
+    position:relative;
+    display:inline-block;
+
 }
+
+
 
 h1 a{
     color:white;
@@ -39,6 +46,7 @@ h1 a{
 a{
     position: aboslute;
     top: 25%;
+    
 }
 
 
@@ -108,11 +116,13 @@ body {
   @media screen and (max-width: 800px) {
     .column1 {
       width: 100%;
+
     }
   }
   @media screen and (max-width: 800px) {
     .column2 {
       width: 100%;
+
     }
   }
 
@@ -127,3 +137,7 @@ body {
       font-size: 35px;
       }
 
+img{
+  max-width: 100%;
+  height:auto;
+}
