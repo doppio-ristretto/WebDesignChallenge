@@ -51,6 +51,7 @@ a{
 
 
 
+
 .title{
     position: absolute;
     top:10%;
@@ -82,7 +83,7 @@ body {
 
 .row{
     position: absolute;
-    top:10%;
+    top:12%;
 }
 
 * {
@@ -94,6 +95,7 @@ body {
     width: 60%;
     padding: 10px;
     border-right:1px solid  lightgrey;
+    border-left:1px solid  lightgrey;
     border-top:1px solid  lightgrey;
 
   }
@@ -102,6 +104,7 @@ body {
     width: 40%;
     padding: 10px;
     border-top:1px solid  lightgrey;
+    border-right:1px solid  lightgrey;
 
   }
   
@@ -121,8 +124,9 @@ body {
   }
   @media screen and (max-width: 800px) {
     .column2 {
-      width: 100%;
-
+      width:auto;
+      height:auto;
+    
     }
   }
 
