@@ -33,3 +33,10 @@
 h1 a{
     color:white;
 }
+
+
+
+.row{
+    position: absolute;
+    top:12%;
+}
